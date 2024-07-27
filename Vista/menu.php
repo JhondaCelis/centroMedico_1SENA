@@ -57,6 +57,32 @@
           </div>
         </li>
 
+        <li class="nav-item dropdown active text-light">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Citas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="index2.php?pag=insertarPaciente">Agregar Cita</a>
+            <a class="dropdown-item" href="index2.php?pag=ConsultarPaciente">Consultar Cita</a>
+            <a class="dropdown-item" href="index2.php?pag=actualizarPaciente">Editar Cita</a>
+            <a class="dropdown-item" href="index2.php?pag=listarPacientes">Listar Cita</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown active text-light">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tratamientos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="index2.php?pag=insertarTratamiento">Agregar Tratamiento</a>
+            <a class="dropdown-item" href="index2.php?pag=consultarTratamiento">Consultar Tratamiento</a>
+            <a class="dropdown-item" href="index2.php?pag=actualizarTratamiento">Editar Tratamiento</a>
+            <a class="dropdown-item" href="index2.php?pag=listarTratamiento">Listar Tratamiento</a>
+          </div>
+        </li>
+
+
+
         <ul class="nav-item navbar-nav navbar-right">
          
           <li><a class="text-light" href="salir.php"><span class="glyphicon glyphicon-log-in text-light"></span> Cerrar Sesión</a></li>
