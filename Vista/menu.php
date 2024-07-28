@@ -41,13 +41,14 @@
           <!--div class="collapse navbar-collapse" id="uno"-->
 
           <ul class="navbar-nav ">
-
             <li class="nav-item dropdown nav-item active">
               <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Usuarios </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="index2.php?pag=insertarUsuario">Agregar Usuarios</a>
                 <a class="dropdown-item" href="index2.php?pag=consultarUsuario">Consultar Usuarios</a>
+                <a class="dropdown-item" href="index2.php?pag=actualizarUsuario">Editar Usuarios</a>
+                <a class="dropdown-item" href="index2.php?pag=listarUsuarios">Listar Usuarios</a>
               </div>
             </li>
 
@@ -103,7 +104,18 @@
               </div>
             </li>
 
-
+            <li class="nav-item dropdown active text-light">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Medicos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="index2.php?pag=insertarMedico">Agregar Medicos</a>
+                <a class="dropdown-item" href="index2.php?pag=ConsultarMedico">Consultar Medicos</a>
+                <a class="dropdown-item" href="index2.php?pag=actualizarMedico">Editar Medicos</a>
+                <a class="dropdown-item" href="index2.php?pag=listarMedicos">Listar Medicos</a>
+              </div>
+            </li>
 
             <ul class="nav-item navbar-nav navbar-right">
 
