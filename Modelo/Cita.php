@@ -31,7 +31,19 @@ class Cita {
         }
     }
 
-    public function ListarCitas() {
+    public function actualizarCita($idCita, $fecha, $hora, $paciente, $medico, $consultorio, $estado, $observaciones) {
+        $sql = "UPDATE citas SET citFecha='$fecha', citHora='$hora', citPaciente='$paciente', citMedico='$medico', citConsultorio='$consultorio', citEstado='$estado', citObservaciones='$observaciones' 
+                WHERE idCita='$idCita'";
+        
+        if ($this->db->query($sql) === TRUE) {
+            return true;
+        } else {
+            echo "Error: " . $this->db->error;
+            return false;
+        }
+    }
+
+    public function listarCitas() {
         $sql = "SELECT * FROM citas";
         $result = $this->db->query($sql);
         return $result;
