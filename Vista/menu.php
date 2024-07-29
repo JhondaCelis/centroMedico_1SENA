@@ -73,8 +73,8 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="index2.php?pag=insertarCita">Agregar Cita</a>
                 <a class="dropdown-item" href="index2.php?pag=consultarCita">Consultar Cita</a>
-                <a class="dropdown-item" href="index2.php?pag=actualizarPaciente">Editar Cita</a>
-                <a class="dropdown-item" href="index2.php?pag=listarPacientes">Listar Cita</a>
+                <a class="dropdown-item" href="index2.php?pag=actualizarCita">Editar Cita</a>
+                <a class="dropdown-item" href="index2.php?pag=listarCitas">Listar Cita</a>
               </div>
             </li>
 

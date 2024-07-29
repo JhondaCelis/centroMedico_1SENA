@@ -30,5 +30,11 @@ class Cita {
             return null;
         }
     }
+
+    public function ListarCitas() {
+        $sql = "SELECT * FROM citas";
+        $result = $this->db->query($sql);
+        return $result;
+    }
 }
 ?>
