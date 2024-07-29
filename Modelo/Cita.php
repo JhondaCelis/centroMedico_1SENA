@@ -1,33 +1,23 @@
 <?php
-require_once 'Database.php';
+require_once "conexionBaseDatos.php";
 
 class Cita {
-  private $conn;
+    private $db;
 
-  public function __construct() {
-    $database = new Database();
-    $this->conn = $database->conn;
-  }
-
-  public function crearCita($nombre, $email, $telefono) {
-    if (!empty($nombre) && !empty($email) && !empty($telefono)) {
-      $stmt = $this->conn->prepare("INSERT INTO datos (nombre, email, telefono) VALUES (?, ?, ?)");
-      $stmt->bind_param("sss", $nombre, $email, $telefono);
-
-      if ($stmt->execute()) {
-        return "Cita agendada";
-      } else {
-        return "Error: " . $stmt->error;
-      }
-
-      $stmt->close();
-    } else {
-      return "Todos los campos son obligatorios.";
+    public function __construct() {
+        $this->db = Conectarse();
     }
-  }
 
-  public function __destruct() {
-    $this->conn->close();
-  }
+    public function insertarCita($fecha, $hora, $paciente, $medico, $consultorio, $estado, $observaciones) {
+        $sql = "INSERT INTO citas (citFecha, citHora, citPaciente, citMedico, citConsultorio, citEstado, citObservaciones) 
+                VALUES ('$fecha', '$hora', '$paciente', '$medico', '$consultorio', '$estado', '$observaciones')";
+
+        if ($this->db->query($sql) === TRUE) {
+            return true;
+        } else {
+            echo "Error: " . $this->db->error;
+            return false;
+        }
+    }
 }
 ?>

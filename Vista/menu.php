@@ -71,8 +71,8 @@
                 Citas
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="index2.php?pag=insertarPaciente">Agregar Cita</a>
-                <a class="dropdown-item" href="index2.php?pag=ConsultarPaciente">Consultar Cita</a>
+                <a class="dropdown-item" href="index2.php?pag=insertarCita">Agregar Cita</a>
+                <a class="dropdown-item" href="index2.php?pag=consultarCita">Consultar Cita</a>
                 <a class="dropdown-item" href="index2.php?pag=actualizarPaciente">Editar Cita</a>
                 <a class="dropdown-item" href="index2.php?pag=listarPacientes">Listar Cita</a>
               </div>
