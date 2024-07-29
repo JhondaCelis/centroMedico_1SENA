@@ -19,5 +19,16 @@ class Cita {
             return false;
         }
     }
+
+    public function consultarCita($idCita) {
+        $sql = "SELECT * FROM citas WHERE idCita = '$idCita'";
+        $result = $this->db->query($sql);
+
+        if ($result->num_rows > 0) {
+            return $result;
+        } else {
+            return null;
+        }
+    }
 }
 ?>
