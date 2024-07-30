@@ -15,7 +15,7 @@ class Usuario
 		$this->usuario=$usuario;
 		$this->password=$password;
 		$this->estado=$estado;
-		$this->rol=$rol;
+		$this->rol=$rol;		
 		
 	}
 
@@ -81,7 +81,33 @@ class Usuario
 		return $resultado;	
 	}
 		
-	
+
+	public function ConsultarIdUsuario($idUsuario)
+	{
+		$this->Conexion=Conectarse();
+		$sql="select * from usuarios where idUsuario='$idUsuario'";
+		$resultado=$this->Conexion->query($sql);
+		$this->Conexion->close();
+		return $resultado;	
+	}		
+
+
+	public function actualizarUsuario()
+	{
+		$this->Conexion = Conectarse();
+		$sql = "UPDATE usuarios SET usuLogin = '$this->usuario'	, usuPassword = '$this->password'	, usuEstado = '$this->estado', usuRol = '$this->rol' WHERE idUsuario = '$_POST[idUsuario]'";
+		$resultado = $this->Conexion->query($sql);
+		$this->Conexion->close();
+		return $resultado;
+	}
+
+	public function ListarUsuario(){
+		$this->Conexion=Conectarse();
+		$sql="SELECT * from usuarios";
+		$resultado=$this->Conexion->query($sql);
+		$this->Conexion->close();
+		return $resultado;	
+	}
 }
 
 ?>
