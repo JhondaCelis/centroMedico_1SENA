@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>MeDSyS</title>
+  <title>SETM</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,7 +16,7 @@
     <div class="row">
       <div class="col-md-2 logo">
         <span class="float-left">
-          <p>HOLA</p>
+          <p>Salud en tus Manos - SETM</p> <!-- Texto reducido -->
         </span>
         <span class="lema">
           <span class="negrita"><a href="index2.php">SISTEMA MEDICO</a></span><br>

@@ -29,7 +29,7 @@
   <body class="fondo-login">
   <div class="container py-5">
   <div class="text-center"><br><br><br><br><br><br><br><br><br>
-    <h2 class="colorh2" >¡Bienvenido! a MeDSyS </h2><br><br>    
+    <h2 class="colorh2" >¡Bienvenido! a Salud en tus Manos - SETM </h2><br><br>    
     
      <!-- Trigger the modal with a button -->
      <button type="button" class="btn btn-dark btn-lg" id="myBtn">Ingresar</button>

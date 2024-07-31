@@ -19,7 +19,7 @@ if (!isset($_REQUEST['msj']))
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Centro Médico</title>
+    <title>SETM</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> <!--Iconos-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" rel="stylesheet">

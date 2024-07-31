@@ -11,7 +11,7 @@ body{
 	margin: 0px;
   	padding: 0px;
   	font-family: arial,sans-serif;
-  	font-size: 15px;
+  	font-size: 30px;
 }
 
 .iconos{
@@ -20,12 +20,12 @@ body{
 }
 
 .logo{
-  	background-color: rgb(255, 200, 0);
+  	background-color: rgb(255, 0, 0);
   	padding-top: 0px;
 }
 
 div.logo p{
-	font-size: 50px;
+	font-size: 25px;
 	font-family: 'Abril Fatface', cursive;
 	color: white;
 	line-height: 1;
@@ -40,7 +40,7 @@ div.logo p{
 	font-weight: bold;
 }
 .cabecera div.menu{
-  	background-color: rgb(52, 66, 66);
+    background-color: rgb(36 28 193);
 }
 .menu ul{
 	display: flex;
@@ -193,4 +193,7 @@ footer{
 }
 small{
 	justify-content: center;
+}
+.logo p {
+    font-size: 14px; /* Ajusta este valor según tus necesidades */
 }

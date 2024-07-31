@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>MeDSyS</title>
+  <title>SETM</title>
    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,7 +15,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <img src="img/slider01.jpg" class="img-fluid">
+      <img src="img/slider02.jpg" class="img-fluid">
     </div>    
   </div>
   
